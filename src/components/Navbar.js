@@ -41,8 +41,8 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/Services' className='nav-links' onClick={closeMobileMenu}>
-                                Services
+                            <Link to='/Projects' className='nav-links' onClick={closeMobileMenu}>
+                                Projects
                             </Link>
                         </li>
                         <li className='nav-item'>
@@ -51,12 +51,12 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to="https://www.buymeacoffee.com/crystal1230" className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to="https://www.buymeacoffee.com/crystal1230" className='nav-links-mobile'>
                                 Buy me a coffee
                             </Link>
                         </li>
                     </u1>
-                    {button && <Button buttonStyle='btn--outline'>Buy me a coffee <i class='fas fa-mug-hot' /> <Link to="https://www.buymeacoffee.com/crystal1230" ></Link>
+                    {button && <Button buttonStyle='btn--outline'>Buy me a coffee <i class='fas fa-mug-hot' />
                     </Button>}
                 </div>
             </nav> 

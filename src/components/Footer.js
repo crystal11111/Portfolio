@@ -32,23 +32,20 @@ function Footer() {
             <div className='footer-link-wrapper'>
                 <div class='footer-link-items'>
                     <h2> About Me </h2>
-                    <Link to='/sign-up'>Resume</Link>
-                    <Link to='/'>Projects</Link>
-                    <Link to='/'>Extracurricular Activities</Link>
+                    <Link to='/resume'>Resume</Link>
+                    <Link to='/projects'>Projects</Link>
+                    <Link to='/projects'>Extracurricular Activities</Link>
                 </div>
                 <div class='footer-link-items'>
                     <h2> Contact Me </h2>
                     <Link to='/sign-up'>How it works</Link>
-                    <Link to='/'>Testimonials</Link>
-                    <Link to='/'>Careers</Link>
                 </div>
             </div>
             <div className='footer-link-wrapper'>
                 <div class='footer-link-items'>
-                    <h2>Videos</h2>
-                    <Link to='/'>Submit Video</Link>
-                    <Link to='/'>Ambassadors</Link>
-                    <Link to='/'>Agency</Link>
+                    <h2>Social Media</h2>
+                    <Link to='https://github.com/crystal11111'>Github</Link>
+                    <Link to='https://www.linkedin.com/in/soojeong-cho-441827181'>LinkedIn</Link>
                 </div>
             </div>
         </div>
@@ -61,15 +58,15 @@ function Footer() {
                 </div>
             <small class='website-rights'>crystal031230@gmail.com</small>
             <div class='social-icons'>
-                <Link class='social-icon-link facebook'
-                to='/'
+                <Link class='social-icon-link github'
+                to='https://github.com/crystal11111'
                 target='_blank'
-                aria-label='Facebook'
+                aria-label='GitHub'
                 >
-                <i class='fab fa-facebook-f' />
+                <i class='fab fa-github' />
                 </Link>
                 <Link class='social-icon-link instagram'
-                to='/'
+                to="https://www.instagram.com/crystal12_30/"
                 target='_blank'
                 aria-label='Instagram'
                 >

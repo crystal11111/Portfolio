@@ -13,13 +13,13 @@ function Cards() {
                     src='/img-2.jpg'
                     text='Check out my extracurricular activites'
                     label='Activity'
-                    path='/services'
+                    path='/projects'
                     />
                     <Carditem
-                    src='img-2.jpg'
+                    src='/img-2.jpg'
                     text='Check out my projects'
                     label='Projects'
-                    path='/services'
+                    path='/projects'
                     />
                 </ul>
             </div>

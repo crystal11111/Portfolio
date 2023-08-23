@@ -1,6 +1,14 @@
 import React from "react";
 import '../../App.css';
+import Myresume from '../Myresume';
 
-export default function Resume() {
-    return <h1 className="resume">RESUME</h1>;
+function Resume() {
+    return (
+        <>
+            <Myresume />
+        
+        </>
+    );
 }
+
+export default Resume;

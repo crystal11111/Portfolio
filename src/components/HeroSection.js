@@ -10,10 +10,10 @@ function HeroSection() {
         <h1>Welcome to my website!</h1>
         <p>What are you looking for?</p>
         <div className="hero-btns">
-            <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
+            <Button className='btns--start' buttonStyle='btn--outline' buttonSize='btn--large'>
                 Get Started
             </Button>
-            <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
+            <Button className='btns--watch' buttonStyle='btn--primary' buttonSize='btn--large'>
                 WATCH <i className='far fa-play-circle'/>
             </Button>
         </div>
