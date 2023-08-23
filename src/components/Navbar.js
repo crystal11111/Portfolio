@@ -34,7 +34,7 @@ function Navbar() {
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
-                    <u1 className={click ? 'nav-menu active' : 'nav-menu'}>
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                                 Home
@@ -55,7 +55,7 @@ function Navbar() {
                                 Buy me a coffee
                             </Link>
                         </li>
-                    </u1>
+                    </ul>
                     {button && <Button buttonStyle='btn--outline'>Buy me a coffee <i class='fas fa-mug-hot' />
                     </Button>}
                 </div>

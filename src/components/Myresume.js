@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../App.css';
 import './Myresume.css';
+
 
 function Myresume() {
     return (

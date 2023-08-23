@@ -4,6 +4,7 @@ import './Cards.css'
 
 function Cards() {
   return (
+    <section id="cards-scroll">
     <div className='cards'>
         <h1> Check out my resume!</h1>
         <div className='cards__container'>
@@ -11,9 +12,9 @@ function Cards() {
                 <ul className='cards_item'>
                     <Carditem 
                     src='/img-2.jpg'
-                    text='Check out my extracurricular activites'
-                    label='Activity'
-                    path='/projects'
+                    text='Check out my resume'
+                    label='Resume'
+                    path='/resume'
                     />
                     <Carditem
                     src='/img-2.jpg'
@@ -24,8 +25,8 @@ function Cards() {
                 </ul>
             </div>
         </div>
-
     </div>
+    </section>
   )
 }
 
